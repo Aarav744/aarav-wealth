@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aarav Wealth | Mutual Fund Distribution</title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #172033;
+    background: #f7f8fa;
+    line-height: 1.6;
+}
+
+nav {
+    background: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e5e7eb;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #14213d;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #172033;
+    font-size: 14px;
+}
+
+.hero {
+    background: white;
+    padding: 90px 7%;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.small-title {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #60708a;
+}
+
+h1 {
+    font-size: clamp(42px, 6vw, 68px);
+    line-height: 1.05;
+    margin: 15px 0;
+    max-width: 800px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #667085;
+    max-width: 700px;
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #14213d;
+}
+
+.primary {
+    background: #14213d;
+    color: white;
+}
+
+.secondary {
+    color: #14213d;
+    background: white;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 8px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    background: #eef1f5;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+section {
+    padding: 70px 7%;
+}
+
+h2 {
+    font-size: 34px;
+    margin: 10px 0 30px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 28px;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+.card h3 {
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #667085;
+}
+
+.box {
+    background: white;
+    padding: 30px;
+    border-radius: 16px;
+    border: 1px solid #e5e7eb;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    margin-top: 7px;
+    padding: 12px;
+    border: 1px solid #cdd3dc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 18px;
+    background: #f1f4f7;
+    border-radius: 10px;
+}
+
+.note {
+    color: #667085;
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+footer {
+    background: #101827;
+    color: white;
+    padding: 40px 7%;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-note {
+    max-width: 550px;
+    color: #cbd5e1;
+    font-size: 13px;
+}
+
+@media(max-width: 750px) {
+
+    nav .links {
+        display: none;
+    }
+
+    .grid,
+    .fields {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 60px;
+    }
+
+    .footer-content {
+        display: block;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">Aarav Wealth</div>
+
+    <div class="links">
+        <a href="#services">Services</a>
+        <a href="#calculator">SIP Calculator</a>
+        <a href="#assessment">Assessment</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<!-- HERO -->
+
+<header class="hero">
+
+<div class="container">
+
+<div class="small-title">
+AMFI Registered Mutual Fund Distributor
+</div>
+
+<h1>
+Invest with clarity.<br>
+Build towards your goals.
+</h1>
+
+<p>
+A simple, transparent and goal-oriented mutual fund distribution experience.
+</p>
+
+<div class="buttons">
+
+<a
+class="btn primary"
+href="https://wa.me/918169331309"
+target="_blank">
+WhatsApp Aarav Wealth
+</a>
+
+<a
+class="btn secondary"
+href="#assessment">
+Start Investor Assessment
+</a>
+
+</div>
+
+<span class="badge">ARN 370342</span>
+<span class="badge">EUIN E709610</span>
+
+</div>
+
+</header>
+
+
+<!-- SERVICES -->
+
+<section id="services">
+
+<div class="container">
+
+<div class="small-title">Services</div>
+
+<h2>Mutual Fund Distribution</h2>
+
+<div class="grid">
+
+<div class="card">
+
+<h3>SIP Investments</h3>
+
+<p>
+Explore systematic investing based on your goals,
+time horizon and suitability.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Lump-sum Investments</h3>
+
+<p>
+Understand available mutual fund options and
+their risks before investing.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>Investor Assessment</h3>
+
+<p>
+A structured process covering objectives,
+financial position, experience and risk preferences.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- SIP CALCULATOR -->
+
+<section id="calculator">
+
+<div class="container">
+
+<div class="small-title">Illustration</div>
+
+<h2>SIP Calculator</h2>
+
+<div class="box">
+
+<div class="fields">
+
+<label>
+Monthly SIP (₹)
+
+<input
+id="sip"
+type="number"
+value="5000"
+min="1">
+
+</label>
+
+
+<label>
+Illustrative annual return (%)
+
+<input
+id="rate"
+type="number"
+value="10"
+step="0.1"
+min="0">
+
+</label>
+
+
+<label>
+Time period (years)
+
+<input
+id="years"
+type="number"
+value="10"
+min="1">
+
+</label>
+
+</div>
+
+
+<button
+class="btn primary"
+style="margin-top:20px"
+onclick="calculateSIP()">
+
+Calculate
+
+</button>
+
+
+<div
+class="result"
+id="sipResult">
+</div>
+
+
+<p class="note">
+Illustration only. Mutual fund returns are market-linked
+and are not guaranteed.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- INVESTOR ASSESSMENT -->
+
+<section id="assessment">
+
+<div class="container">
+
+<div class="small-title">
+Investor Assessment
+</div>
+
+<h2>
+Understand Your Investment Profile
+</h2>
+
+<div class="box">
+
+<div class="fields">
+
+<label>
+Investment Horizon
+
+<select id="horizon">
+
+<option value="1">
+Less than 3 years
+</option>
+
+<option value="2">
+3–5 years
+</option>
+
+<option value="3">
+5–10 years
+</option>
+
+<option value="4">
+More than 10 years
+</option>
+
+</select>
+
+</label>
+
+
+<label>
+Investment Experience
+
+<select id="experience">
+
+<option value="1">
+None
+</option>
+
+<option value="2">
+Some experience
+</option>
+
+<option value="3">
+Experienced
+</option>
+
+</select>
+
+</label>
+
+
+<label>
+Temporary Fall in Investment
+
+<select id="risk">
+
+<option value="1">
+I would be uncomfortable
+</option>
+
+<option value="2">
+I could tolerate some fall
+</option>
+
+<option value="3">
+I could tolerate a significant temporary fall
+</option>
+
+</select>
+
+</label>
+
+
+<label>
+Primary Objective
+
+<select>
+
+<option>
+Capital preservation
+</option>
+
+<option>
+Short / medium-term goal
+</option>
+
+<option>
+Long-term wealth creation
+</option>
+
+<option>
+Retirement / education
+</option>
+
+</select>
+
+</label>
+
+</div>
+
+
+<button
+class="btn primary"
+style="margin-top:20px"
+onclick="assessment()">
+
+View Preliminary Profile
+
+</button>
+
+
+<div
+class="result"
+id="assessmentResult">
+</div>
+
+
+<p class="note">
+
+This is an information-gathering tool and not an automated
+"best fund" recommendation. A suitability review should
+be completed before discussing specific schemes.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact">
+
+<div class="container">
+
+<div class="small-title">
+Contact
+</div>
+
+<h2>
+Talk to Aarav Wealth
+</h2>
+
+<div class="box">
+
+<p>
+<strong>WhatsApp / Phone:</strong>
+<a href="tel:+918169331309">
+8169331309
+</a>
+</p>
+
+<p>
+<strong>Email:</strong>
+<a href="mailto:aaravwealth17@gmail.com">
+aaravwealth17@gmail.com
+</a>
+</p>
+
+
+<form onsubmit="sendWhatsApp(event)">
+
+<div class="fields">
+
+<label>
+
+Name
+
+<input
+id="name"
+required>
+
+</label>
+
+
+<label>
+
+Mobile
+
+<input
+id="mobile"
+required>
+
+</label>
+
+</div>
+
+
+<label style="display:block;margin-top:18px">
+
+Message
+
+<textarea
+id="message"
+rows="4"
+required>
+</textarea>
+
+</label>
+
+
+<button
+class="btn primary"
+style="margin-top:18px">
+
+Send Enquiry on WhatsApp
+
+</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<div class="footer-content">
+
+<div>
+
+<strong>Aarav Wealth</strong>
+
+<p>
+AMFI Registered Mutual Fund Distributor<br>
+
+ARN 370342 · EUIN E709610
+</p>
+
+</div>
+
+
+<div class="footer-note">
+
+Mutual fund investments are subject to market risks.
+Read all scheme-related documents carefully before investing.
+
+This website does not promise or guarantee returns.
+
+</div>
+
+</div>
+
+</footer>
+
+
+<script>
+
+function calculateSIP() {
+
+let monthly =
+Number(document.getElementById("sip").value);
+
+let annualRate =
+Number(document.getElementById("rate").value);
+
+let years =
+Number(document.getElementById("years").value);
+
+let months =
+years * 12;
+
+let monthlyRate =
+annualRate / 12 / 100;
+
+let futureValue;
+
+if (monthlyRate === 0) {
+
+futureValue =
+monthly * months;
+
+} else {
+
+futureValue =
+monthly *
+(
+(Math.pow(1 + monthlyRate, months) - 1)
+/
+monthlyRate
+) *
+(1 + monthlyRate);
+
+}
+
+let invested =
+monthly * months;
+
+let gain =
+futureValue - invested;
+
+document.getElementById("sipResult").innerHTML =
+
+"<strong>Illustrative Value: ₹" +
+Math.round(futureValue).toLocaleString("en-IN") +
+"</strong><br><br>" +
+
+"Total Invested: ₹" +
+Math.round(invested).toLocaleString("en-IN") +
+
+"<br>Illustrative Gain: ₹" +
+Math.round(gain).toLocaleString("en-IN");
+
+}
+
+
+function assessment() {
+
+let horizon =
+Number(document.getElementById("horizon").value);
+
+let experience =
+Number(document.getElementById("experience").value);
+
+let risk =
+Number(document.getElementById("risk").value);
+
+let score =
+horizon + experience + risk;
+
+let profile;
+
+if (score <= 5) {
+
+profile =
+"Lower risk preference";
+
+} else if (score <= 7) {
+
+profile =
+"Moderate risk preference";
+
+} else {
+
+profile =
+"Higher risk preference";
+
+}
+
+document.getElementById("assessmentResult").innerHTML =
+
+"<strong>Preliminary Profile: " +
+profile +
+"</strong><br><br>" +
+
+"This result is only a starting point for a suitability discussion and is not a fund recommendation.";
+
+}
+
+
+function sendWhatsApp(event) {
+
+event.preventDefault();
+
+let name =
+document.getElementById("name").value;
+
+let mobile =
+document.getElementById("mobile").value;
+
+let message =
+document.getElementById("message").value;
+
+let text =
+"Hello Aarav Wealth,%0A%0A" +
+
+"Name: " +
+encodeURIComponent(name) +
+
+"%0AMobile: " +
+encodeURIComponent(mobile) +
+
+"%0AEnquiry: " +
+encodeURIComponent(message);
+
+window.open(
+"https://wa.me/918169331309?text=" +
+text,
+"_blank"
+);
+
+}
+
+
+calculateSIP();
+
+</script>
+
+</body>
+</html>
